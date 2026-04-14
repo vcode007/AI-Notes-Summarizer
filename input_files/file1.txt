@@ -1,0 +1,9 @@
+The Gemmaverse expands with the launch of the latest Gemma 4 multimodal and multilingual models, designed to scale across the full spectrum of deployments, from NVIDIA Blackwell in the data center to Jetson at the edge. These models are suited to meet the growing demand for local deployment for AI development and prototyping, secure on-prem requirements, cost efficiency, and latency-sensitive use cases. The newest generation improves both efficiency and accuracy, making these general-purpose models well-suitable for a wide range of common tasks:  
+
+Reasoning: Strong performance on complex problem-solving tasks.
+Coding: Code generation and debugging for developer workflows.
+Agents: Native support for structured tool use (function calling). 
+Vision, video and audio capability: Enables rich multimodal interactions for use cases such as object recognition, automated speech recognition (ASR), document and video intelligence, and more.  
+Interleaved multimodal input: Freely mix text and images in any order within a single prompt. 
+Multilingual: Out-of-the-box support for over 35 languages, and pre-trained on over 140 languages. 
+The bundle includes four models, including Gemma’s first MoE model, which can all fit on a single NVIDIA H100 GPU and supports over 140 languages. The 31B and 26B A4B variants are high-performing reasoning models suitable for both local and data center environments. The E4B and E2B are the newest edition of on-device and mobile designed models first launched with Gemma 3n. 

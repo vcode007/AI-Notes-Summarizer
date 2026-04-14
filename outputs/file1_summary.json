@@ -1,0 +1,12 @@
+{
+  "title": "Gemma 4 Multimodal and Multilingual Models Launch",
+  "key_points": [
+    "New Gemma 4 models are multimodal and multilingual, designed for scalable deployments from data centers to edge devices.",
+    "They meet demand for local deployment, on-prem security, cost efficiency, and low-latency use cases.",
+    "Improvements in efficiency and accuracy make them suitable for reasoning, coding, agents (with function calling), and various vision, video, and audio tasks.",
+    "They support interleaved multimodal input (text and images) and over 140 languages, with out-of-the-box support for 35+ languages.",
+    "The bundle includes four models, including Gemma’s first MoE model, all fitting on a single NVIDIA H100 GPU.",
+    "High-performing 31B and 26B A4B variants for local and data center use, and E4B/E2B for on-device/mobile applications."
+  ],
+  "sentiment": "positive"
+}

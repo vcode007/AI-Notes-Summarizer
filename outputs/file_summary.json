@@ -1,0 +1,12 @@
+{
+  "title": "MiniMax M2.7 Model Release and Features",
+  "key_points": [
+    "MiniMax M2.7 is an enhanced version of the M2.5 model, designed for agentic harnesses and complex use cases in reasoning, ML research, software, engineering, and office work.",
+    "It is released with open weights via NVIDIA and the open source inference ecosystem.",
+    "The MiniMax M2 series uses a sparse mixture-of-experts (MoE) design, balancing efficiency with a 230B-parameter model's full capacity and low inference costs.",
+    "Key architectural features include multi-head causal self-attention with Rotary Position Embeddings (RoPE) and Query-Key Root Mean Square Normalization (QK RMSNorm).",
+    "A top-k expert routing mechanism further optimizes inference costs by activating only relevant experts.",
+    "The architecture is optimized for coding challenges and complex agentic tasks."
+  ],
+  "sentiment": "positive"
+}

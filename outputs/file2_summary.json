@@ -1,0 +1,13 @@
+{
+  "title": "Building Reliable AI Coding Workflows for Unreal Engine 5",
+  "key_points": [
+    "Agentic code assistants are becoming integral in game development, particularly for Unreal Engine, to accelerate tasks like gameplay scaffolding and refactoring.",
+    "Reliability is critical for AI in Unreal Engine due to complex C++ projects, engine conventions, and studio-specific coding patterns.",
+    "The primary challenge is the 'context gap,' where AI failures stem from missing constraints like internal coding patterns, branch differences, or conventions.",
+    "Improving context retrieval through methods like syntax-aware indexing and hybrid search is essential to make AI output reliable for production.",
+    "NVIDIA is collaborating with game studios to enhance AI reliability in large Unreal environments using advanced search infrastructure.",
+    "The 'context gap' impacts developers (documentation friction), teams (multi-file workflows), and enterprises (governed codebases) differently.",
+    "Unreal Assistant-style workflows aim to reduce documentation friction by combining intelligent documentation retrieval with engine-compatible code generation."
+  ],
+  "sentiment": "Positive"
+}
