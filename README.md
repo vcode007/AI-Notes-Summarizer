@@ -36,7 +36,7 @@ day 2/
     ├── file_summary.json
     ├── file1_summary.json
     └── file2_summary.json
-
+```
 ## Tech Stack
 ----------
 
