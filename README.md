@@ -36,3 +36,99 @@ day 2/
     ├── file_summary.json
     ├── file1_summary.json
     └── file2_summary.json
+
+## Tech Stack
+----------
+
+*   Python 3.11+
+    
+*   [google-genai](https://pypi.org/project/google-genai/)
+    
+*   [python-dotenv](https://pypi.org/project/python-dotenv/)
+    
+
+Setup
+-----
+
+### 1) Clone the repository
+
+git clone cd /day\\ 2
+
+### 2) Create and activate a virtual environment
+
+**Windows (PowerShell):**
+
+python -m venv .venv.venv\\Scripts\\Activate.ps1
+
+**macOS/Linux:**
+
+python3 -m venv .venvsource .venv/bin/activate
+
+### 3) Install dependencies
+
+pip install google-genai python-dotenv
+
+### 4) Configure environment variables
+
+Create a .env file in the project root (day 2/):
+
+GEMINI\_API\_KEY=your\_api\_key\_here
+
+Usage
+-----
+
+1.  Add .txt files into input\_files/
+    
+2.  Run the script:
+    
+
+python main.py
+
+1.  Check generated summaries in outputs/
+    
+
+Output file naming pattern:
+
+*   input\_files/file1.txt -> outputs/file1\_summary.json
+    
+
+Expected Output Format
+----------------------
+
+Each summary is saved as JSON with this structure:
+
+{ "title": "string", "key\_points": \["string", "string", "string"\], "sentiment": "string"}
+
+Error Handling
+--------------
+
+The script currently handles:
+
+*   Missing GEMINI\_API\_KEY
+    
+*   Missing input files/folders
+    
+*   Empty .txt files
+    
+*   Temporary Gemini server overload (503) with retries
+    
+
+Example Output
+--------------
+
+{ "title": "Building Reliable AI Coding Workflows for Unreal Engine 5", "key\_points": \[ "Agentic code assistants accelerate Unreal development tasks.", "Reliable outputs require project-specific context and conventions.", "Better retrieval systems reduce context gaps in large codebases." \], "sentiment": "Positive"}
+
+Learning Outcomes
+-----------------
+
+This project helped me practice:
+
+*   API integration with Gemini
+    
+*   Prompt engineering for structured outputs
+    
+*   JSON parsing and file writing in Python
+    
+*   Retry logic for production-like robustness
+    
+*   Batch file processing with pathlib
